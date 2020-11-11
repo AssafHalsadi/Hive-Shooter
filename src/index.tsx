@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {HiveShooter} from "./components/hive-shooter";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <HiveShooter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
