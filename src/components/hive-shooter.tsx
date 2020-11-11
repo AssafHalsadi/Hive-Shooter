@@ -22,7 +22,7 @@ export interface GameProps {
  */
 
 /*
-Assaf -
+Assaf - started
 1. create the hexagon which accepts a hexagon object, and renders it to the screen (no x,y yet).
 ({color, ..})
 2. Render square of game board
