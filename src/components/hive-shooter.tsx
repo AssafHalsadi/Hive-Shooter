@@ -1,12 +1,16 @@
 import React from "react";
 import {StatusBar} from "./status-bar";
 import {GameBoard} from "./game-board";
+import {Hexagon} from "./hexagon";
+
+
 
 export const HiveShooter: React.FC<GameProps> = (props) => {
+
     return (
         <>
-            <StatusBar score={50}/>
-            <GameBoard/>
+
+            <Hexagon/>
         </>
     );
 }
