@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/status-bar.css';
 
 export const StatusBar: React.FC<StatusBarProps> = ({score}) => {
     return (
-        <div>
+        <div className={'status-container'}>
             <h3>{`User score: ${score}`}</h3>
             {/*<NextHexagon /> */}
             {/*TODO Assaf you do this ok?*/}

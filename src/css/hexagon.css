@@ -1,0 +1,118 @@
+/*TODO: how do I use only one hexagon class with changeable colors? (Instead of copying the whole hexagon)*/
+.hexagon-red {
+    width: 100px;
+    height: 57.735px;
+    background: red;
+    position: relative;
+}
+.hexagon-red::before {
+    content: "";
+    position: absolute;
+    top: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid red;
+}
+.hexagon-red::after {
+    content: "";
+    position: absolute;
+    bottom: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid red;
+}
+
+
+.hexagon-blue {
+    width: 100px;
+    height: 57.735px;
+    background: blue;
+    position: relative;
+}
+.hexagon-blue::before {
+    content: "";
+    position: absolute;
+    top: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid blue;
+}
+.hexagon-blue::after {
+    content: "";
+    position: absolute;
+    bottom: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid blue;
+}
+
+.hexagon-green {
+    width: 100px;
+    height: 57.735px;
+    background: green;
+    position: relative;
+}
+.hexagon-green::before {
+    content: "";
+    position: absolute;
+    top: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid green;
+}
+.hexagon-green::after {
+    content: "";
+    position: absolute;
+    bottom: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid green;
+}
+
+
+.hexagon-yellow {
+    width: 100px;
+    height: 57.735px;
+    background: yellow;
+    position: relative;
+}
+.hexagon-yellow::before {
+    content: "";
+    position: absolute;
+    top: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid yellow;
+}
+.hexagon-yellow::after {
+    content: "";
+    position: absolute;
+    bottom: -27.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid yellow;
+}

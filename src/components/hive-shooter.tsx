@@ -2,20 +2,32 @@ import React from "react";
 import {StatusBar} from "./status-bar";
 import {GameBoard} from "./game-board";
 import {Hexagon} from "./hexagon";
+import "../css/hive-shooter.css";
 
 
 
 export const HiveShooter: React.FC<GameProps> = (props) => {
 
     return (
-        <>
-
-            <Hexagon/>
-        </>
+        <html>
+            <head>
+                <title>Hive-Shooter</title>
+            </head>
+            <body>
+                <div className={"game-container"}>
+                    <Hexagon color={"red"}/>
+                    <Hexagon color={"blue"}/>
+                    <Hexagon color={"green"}/>
+                    <Hexagon color={"yellow"}/>
+                    <StatusBar score={0}/>
+                </div>
+            </body>
+        </html>
     );
 }
 
 export interface GameProps {
+
 }
 
 

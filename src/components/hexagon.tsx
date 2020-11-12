@@ -1,5 +1,5 @@
 import React from "react";
-import '../test-css.css';
+import '../css/hexagon.css';
 
 
 /**
@@ -7,15 +7,14 @@ import '../test-css.css';
  * @param props
  * @constructor
  */
-export const Hexagon: React.FC<HexagonProps> = (props) => {
+export const Hexagon: React.FC<HexagonProps> = ({color}) => {
     return (
         <>
-            <div className={"centered-container"}>
-                <div className={"hexagon"} />
-            </div>
+            <div className={"hexagon-" + color} />
         </>
     );
 }
 
 export interface HexagonProps {
+    color: string;
 }
