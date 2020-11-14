@@ -1,17 +1,15 @@
 import React from "react";
 import {StatusBar} from "./status-bar";
 import {GameBoard} from "./game-board";
+import "../styles.css";
 
-export const HiveShooter: React.FC<GameProps> = (props) => {
+export const HiveShooter: React.FC = () => {
     return (
         <>
             <StatusBar score={50}/>
             <GameBoard/>
         </>
     );
-}
-
-export interface GameProps {
 }
 
 
@@ -26,11 +24,6 @@ Assaf -
 1. create the hexagon which accepts a hexagon object, and renders it to the screen (no x,y yet).
 ({color, ..})
 2. Render square of game board
- */
-
-/*
-Nitsan -
-1. Create player (drawing + respond to mouse).
  */
 
 /*
