@@ -9,8 +9,8 @@ export class Player {
         if (ctx) {
             document.addEventListener("mousemove", event => {
                 ctx.clearRect(0, 0, GAME_CANVAS_WIDTH, GAME_CANVAS_HEIGHT);
-                this.drawPlayerBase(ctx);
                 this.drawPlayerArrow(ctx, event);
+                this.drawPlayerBase(ctx);
             });
         }
     }
